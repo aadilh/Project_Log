@@ -1,0 +1,63 @@
+body,html {
+    background-color : floralwhite ;
+}
+
+
+.menu{
+    overflow-x:hidden ;
+    
+    position:relative;
+    left:0;
+    top:0;
+}
+
+
+.top-open{
+    top:800px;
+    overflow-y:hidden;
+}
+
+
+.top-open .custom-topbar{
+    top:0;
+    height:100%;
+}
+
+.menu , .top-open , .custom-topbar {
+    -webkit-transition: 0.5s ease-out;
+    -o-transition:  0.5s ease-out;
+    -moz-transition:  0.5s ease-out;
+    transition:  0.5s ease-out;
+    -transition:  0.5s ease-out;
+}
+
+
+
+
+.custom-topbar{
+    height : 100px;
+    width :auto;
+    background-color : floralwhite ;
+    color : white ;
+    position:fixed;
+    top:-800px;
+    width:100%;
+    height:200px;
+    padding-left:20px;
+    padding-right:20px;
+    overflow-y: scroll;
+
+}
+
+.custom-width{
+    width : 80%;
+    color : black ;
+}
+.noerror{
+    visibility: collapse ;
+}
+.custom-height{
+    height: 30px;
+}
+
+
